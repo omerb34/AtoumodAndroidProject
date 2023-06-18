@@ -12,7 +12,7 @@ public class HomeStepDefs {
 
     @Given("Anasayfaya git ve kontrol et")
     public void anasayfayaGitVeKontrolEt() {
-        Driver.getAppiumDriver();
+      //  Driver.getAppiumDriver();
         element.later.click();
 
     }
